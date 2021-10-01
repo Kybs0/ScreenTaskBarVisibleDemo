@@ -1,0 +1,15 @@
+﻿<Window x:Class="ScreenTaskBarVisibleDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScreenTaskBarVisibleDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize" StateChanged="MainWindow_OnStateChanged">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="ShowButton" Content="显示" Click="ShowButton_OnClick" Width="80" Height="26"/>
+            <Button x:Name="HideButton" Content="隐藏" Click="HideButton_OnClick" Width="80" Height="26"/>
+        </StackPanel>
+    </Grid>
+</Window>
